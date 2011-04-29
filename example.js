@@ -1,4 +1,4 @@
-var klout = require('klout-js')(process.argv[2]);
+var klout = require('./klout-js.js')(process.argv[2]);
 
 klout.klout(['smurthasmith', 'jeremie'], function(err, data) {
     console.log('getKloutScore:', data);
