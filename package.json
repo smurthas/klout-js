@@ -1,6 +1,7 @@
 {
     "name": "klout-js",
     "description": "A simple wrapper around the Klout API",
+    "main":"klout-js.js",
     "version": "0.0.0",
     "author": "Simon Murtha-Smith <simon@murtha-smith.com>",
     "keywords": ["klout"],
