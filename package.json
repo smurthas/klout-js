@@ -1,13 +1,14 @@
 {
     "name": "klout-js",
     "description": "A simple wrapper around the Klout API",
-    "version": "0.0.0",
+    "main":"klout-js.js",
+    "version": "0.0.1",
     "author": "Simon Murtha-Smith <simon@murtha-smith.com>",
     "keywords": ["klout"],
     "homepage": "https://github.com/smurthasmith/klout-js",
     "repository" : {"type": "git" , "url": "http://github.com/smurthasmith/klout-js.git" },
     "engines": {
-        "node": ">= 0.4.6"
+        "node": ">= 0.4.1"
     },
     "dependencies": {
         "request" : "=1.9.5"
