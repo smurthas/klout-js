@@ -29,5 +29,3 @@ which looks something like this
     });
     
 Follow [@smurthasmith](http://twitter.com/smurthasmith) for updates!
-
-Also, the SOI endpoints don't seem to be working, anyone know why?
