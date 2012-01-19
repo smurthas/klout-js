@@ -24,13 +24,12 @@ module.exports = function(apiKey) {
     client.topics = function (usernames, callback) {
         makeRequest('users/topics', usernames, callback);
     };
-    //these endpoints don't seem to work, if anyone can get them to work, please help!!
-/*    client.influencedBy = function (usernames, callback) {
+    client.influencedBy = function (usernames, callback) {
         makeRequest('soi/influenced_by', usernames, callback);
     };
     client.influencerOf = function (usernames, callback) {
-        makeRequest('soi/influenced_of', usernames, callback);
-    };*/
+        makeRequest('soi/influencer_of', usernames, callback);
+    };
     
     return client;
 }
