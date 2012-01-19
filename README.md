@@ -16,16 +16,16 @@ which looks something like this
 
     var klout = require('klout-js')('your-api-key');
 
-    klout.klout(['smurthasmith', 'jeremie'], function(err, data) {
+    klout.klout(['smurthas', 'jeremie'], function(err, data) {
         console.log('getKloutScore:', data);
     });
 
-    klout.show(['smurthasmith', 'jeremie'], function(err, data) {
+    klout.show(['smurthas', 'jeremie'], function(err, data) {
         console.log('getKloutScore:', data);
     });
 
-    klout.topics(['smurthasmith', 'jeremie'], function(err, data) {
+    klout.topics(['smurthas', 'jeremie'], function(err, data) {
         console.log('getKloutScore:', data);
     });
     
-Follow [@smurthasmith](http://twitter.com/smurthasmith) for updates!
+Follow [@smurthas](http://twitter.com/smurthas) for updates!
