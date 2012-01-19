@@ -6,12 +6,12 @@ module.exports = function(apiKey) {
     var client = {API_KEY:apiKey};
     
     function makeRequest(endpoint, usernames, callback) {
-        request.get({uri:BASE + endpoint + '.json?key=' + client.API_KEY + '&users=' + usernames}, 
+        request.get({uri:BASE + endpoint + '.json?key=' + client.API_KEY + '&users=' + usernames, json:true}, 
             function(err, resp, body) {
                 if(err)
                     callback(err, body);
                 else
-                    callback(null, JSON.parse(body));
+                    callback(null, body);
             });
     }
     

@@ -3,27 +3,27 @@
 // eg. node example.js 1234abc
 var klout = require('./klout-js.js')(process.argv[2]);
 
-klout.klout(['smurthasmith', 'jeremie'], function(err, data) {
-    console.log('getKloutScore:', JSON.stringify(data));
+klout.klout(['smurthas', 'jeremie'], function(err, data) {
+    console.log('getKloutScore:\n', JSON.stringify(data, true, 4));
     console.log('.....................');
 });
 
-klout.show(['smurthasmith', 'jeremie'], function(err, data) {
-    console.log('getKloutProfile:', JSON.stringify(data));
+klout.show(['smurthas', 'jeremie'], function(err, data) {
+    console.log('getKloutProfile:\n', JSON.stringify(data, true, 4));
     console.log('.....................');
 });
 
-klout.topics(['smurthasmith', 'jeremie'], function(err, data) {
-    console.log('getKloutTopics:', JSON.stringify(data));
+klout.topics(['smurthas', 'jeremie'], function(err, data) {
+    console.log('getKloutTopics:\n', JSON.stringify(data, true, 4));
     console.log('.....................');
 });
 
-klout.influencedBy(['smurthasmith', 'jeremie'], function(err, data) {
-    console.log('getKloutInfluencers:', JSON.stringify(data));
+klout.influencedBy(['smurthas', 'jeremie'], function(err, data) {
+    console.log('getKloutInfluencers:\n', JSON.stringify(data, true, 4));
     console.log('.....................');
 });
 
-klout.influencerOf(['smurthasmith', 'jeremie'], function(err, data) {
-    console.log('getKloutInfluencees:', JSON.stringify(data));
+klout.influencerOf(['smurthas', 'jeremie'], function(err, data) {
+    console.log('getKloutInfluencees:\n', JSON.stringify(data, true, 4));
     console.log('.....................');
 });

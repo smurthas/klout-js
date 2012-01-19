@@ -2,7 +2,7 @@
     "name": "klout-js",
     "description": "A simple wrapper around the Klout API",
     "main":"klout-js.js",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "Simon Murtha-Smith <simon@murtha-smith.com>",
     "keywords": ["klout"],
     "homepage": "https://github.com/smurthas/klout-js",
@@ -11,6 +11,6 @@
         "node": ">= 0.4.1"
     },
     "dependencies": {
-        "request" : "=1.9.5"
+        "request" : ">=2.2.0"
     }
 }
